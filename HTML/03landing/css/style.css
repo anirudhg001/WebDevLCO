@@ -3,12 +3,14 @@
 body {
   background: linear-gradient(90deg, #00d2ff 0%, #3a47df 100%);
   color: #ffffff;
+  padding: 0;
+  margin: 0;
 }
 
 h1 {
   font-size: 70px;
   text-align: center;
-  margin-top: 20%;
+  margin-top: 20px;
   color: #ffffff;
   font-family: "Montserrat";
   font-weight: 400;
@@ -57,5 +59,26 @@ button {
 
 .lco:hover {
   box-shadow: 0 0 40px 40px #1f1f1f inset;
+  /* by the use of inset the shadow goes inside rather than default which is outside */
+}
+
+.page-footer {
+  background-color: #ffffff;
+  color: #1f1f1f;
+  position: absolute;
+  font-size: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Montserrat";
+  font-weight: 500;
+  padding: 1rem;
+  bottom: 0;
+  width: 100%;
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+
+.page-footer:hover {
+  box-shadow: 0 0 40px 40px #1f1f1f inset;
+  color: #ffffff;
   /* by the use of inset the shadow goes inside rather than default which is outside */
 }
