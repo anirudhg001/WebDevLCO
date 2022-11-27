@@ -26,3 +26,36 @@ p {
   font-size: 18px;
   letter-spacing: 10px;
 }
+
+button {
+  margin: auto;
+  display: block;
+}
+
+.btn {
+  background-color: transparent;
+  border: 2px solid #1f1f1f;
+  border-radius: 0.6em;
+  color: #1f1f1f;
+  font-size: 1rem;
+  padding: 1.2em 2.8em;
+  cursor: grab;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Montserrat";
+  font-weight: 900;
+}
+
+.btn:hover {
+  color: #ffffff;
+  outline: 0;
+}
+
+.lco {
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+
+.lco:hover {
+  box-shadow: 0 0 40px 40px #1f1f1f inset;
+  /* by the use of inset the shadow goes inside rather than default which is outside */
+}
